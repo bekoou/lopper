@@ -50,20 +50,7 @@ var wow = new WOW(
 wow.init();
 
 
-$(document).ready(function(){
-    $(window).scroll(function(){
-        var scrollTop = 620;
-        if($(window).scrollTop() >= scrollTop ){
-            $('nav').css({
-                position : 'fixed',
-                top : '0'
-            });
-        }
-        if($(window).scrollTop() <= scrollTop ){
-            $('nav').removeAttr('style');
-        }
-    })
-});
+
 
 var delay_popup = 3000;
 setTimeout("document.getElementById('overlay').style.display='block'", delay_popup);
