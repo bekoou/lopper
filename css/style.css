@@ -10,7 +10,7 @@
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    z-index: 1;
+    z-index: 13;
     transition: 2s all;
     opacity: 1;
     visibility: visible;
